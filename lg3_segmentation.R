@@ -331,3 +331,4 @@ SimData[, .(  score_5th_perc = quantile(sim.median.betchange,  0.05, na.rm = T)
 
 quantile(SimSpinsRaw[ , betchange] , seq(0,1,0.1) , na.rm = T) ## make sure all betchange range is covered in 'betchange_score'
 Sys.time()
+##
